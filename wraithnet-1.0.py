@@ -5,6 +5,8 @@ from termcolor import colored
 import pyfiglet
 import platform
 
+# 1488
+
 def show_menu():
     os.system('cls' if os.name == 'nt' else 'clear')
     ascii_art = pyfiglet.figlet_format("WRAITHNET", font="doom")
